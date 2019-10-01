@@ -921,7 +921,7 @@ class _CalendarState<T extends EventInterface> extends State<CalendarCarousel<T>
           }
         } else {
           //max 5 dots
-          if (eventIndex < 5) {
+          if (eventIndex < 1) {
             if (widget.markedDateIconBuilder != null) {
               tmp.add(widget.markedDateIconBuilder(event));
             } else {
